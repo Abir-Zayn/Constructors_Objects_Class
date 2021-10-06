@@ -17,7 +17,7 @@ class privateCyclin{
 
     //get and set method for modifying the private values ==>For radius
     public void setRadius(double r) {
-        if( radius>0)       radius = r;
+        if( r>0)       radius = r;
         else                    System.out.println("Radius cant be 0");
     }
 
